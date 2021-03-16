@@ -10,8 +10,8 @@
 		3614B3912600D6570033C055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614B3902600D6570033C055 /* AppDelegate.swift */; };
 		3614B3952600D6570033C055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614B3942600D6570033C055 /* ViewController.swift */; };
 		3614B39D2600D6580033C055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3614B39B2600D6580033C055 /* LaunchScreen.storyboard */; };
-		3614B3AE2600DA430033C055 /* ImageSequence_videos_puppets_with_alpha_hevc.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3614B3AD2600DA430033C055 /* ImageSequence_videos_puppets_with_alpha_hevc.mov */; };
 		3614B3B12600DA520033C055 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3614B3B02600DA520033C055 /* Media.xcassets */; };
+		368E9B3D2600E157003B04FE /* ImageSequence_videos_puppets_with_alpha_hevc.mov in Resources */ = {isa = PBXBuildFile; fileRef = 368E9B3C2600E157003B04FE /* ImageSequence_videos_puppets_with_alpha_hevc.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +20,8 @@
 		3614B3942600D6570033C055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3614B39C2600D6580033C055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3614B39E2600D6590033C055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3614B3AD2600DA430033C055 /* ImageSequence_videos_puppets_with_alpha_hevc.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = ImageSequence_videos_puppets_with_alpha_hevc.mov; path = ../../../Downloads/ImageSequence_videos_puppets_with_alpha_hevc.mov; sourceTree = "<group>"; };
 		3614B3B02600DA520033C055 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		368E9B3C2600E157003B04FE /* ImageSequence_videos_puppets_with_alpha_hevc.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = ImageSequence_videos_puppets_with_alpha_hevc.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 				3614B3942600D6570033C055 /* ViewController.swift */,
 				3614B39B2600D6580033C055 /* LaunchScreen.storyboard */,
 				3614B39E2600D6590033C055 /* Info.plist */,
-				3614B3AD2600DA430033C055 /* ImageSequence_videos_puppets_with_alpha_hevc.mov */,
+				368E9B3C2600E157003B04FE /* ImageSequence_videos_puppets_with_alpha_hevc.mov */,
 				3614B3B02600DA520033C055 /* Media.xcassets */,
 			);
 			path = "sprite-example-ios";
@@ -125,7 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3614B3AE2600DA430033C055 /* ImageSequence_videos_puppets_with_alpha_hevc.mov in Resources */,
+				368E9B3D2600E157003B04FE /* ImageSequence_videos_puppets_with_alpha_hevc.mov in Resources */,
 				3614B3B12600DA520033C055 /* Media.xcassets in Resources */,
 				3614B39D2600D6580033C055 /* LaunchScreen.storyboard in Resources */,
 			);
