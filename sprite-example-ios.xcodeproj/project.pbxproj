@@ -8,22 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		3614B3912600D6570033C055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614B3902600D6570033C055 /* AppDelegate.swift */; };
-		3614B3932600D6570033C055 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614B3922600D6570033C055 /* SceneDelegate.swift */; };
 		3614B3952600D6570033C055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614B3942600D6570033C055 /* ViewController.swift */; };
-		3614B3982600D6570033C055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3614B3962600D6570033C055 /* Main.storyboard */; };
-		3614B39A2600D6580033C055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3614B3992600D6580033C055 /* Assets.xcassets */; };
 		3614B39D2600D6580033C055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3614B39B2600D6580033C055 /* LaunchScreen.storyboard */; };
+		3614B3AE2600DA430033C055 /* ImageSequence_videos_puppets_with_alpha_hevc.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3614B3AD2600DA430033C055 /* ImageSequence_videos_puppets_with_alpha_hevc.mov */; };
+		3614B3B12600DA520033C055 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3614B3B02600DA520033C055 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3614B38D2600D6570033C055 /* sprite-example-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sprite-example-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3614B3902600D6570033C055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3614B3922600D6570033C055 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3614B3942600D6570033C055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3614B3972600D6570033C055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3614B3992600D6580033C055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3614B39C2600D6580033C055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3614B39E2600D6590033C055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3614B3AD2600DA430033C055 /* ImageSequence_videos_puppets_with_alpha_hevc.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = ImageSequence_videos_puppets_with_alpha_hevc.mov; path = ../../../Downloads/ImageSequence_videos_puppets_with_alpha_hevc.mov; sourceTree = "<group>"; };
+		3614B3B02600DA520033C055 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				3614B3902600D6570033C055 /* AppDelegate.swift */,
-				3614B3922600D6570033C055 /* SceneDelegate.swift */,
 				3614B3942600D6570033C055 /* ViewController.swift */,
-				3614B3962600D6570033C055 /* Main.storyboard */,
-				3614B3992600D6580033C055 /* Assets.xcassets */,
 				3614B39B2600D6580033C055 /* LaunchScreen.storyboard */,
 				3614B39E2600D6590033C055 /* Info.plist */,
+				3614B3AD2600DA430033C055 /* ImageSequence_videos_puppets_with_alpha_hevc.mov */,
+				3614B3B02600DA520033C055 /* Media.xcassets */,
 			);
 			path = "sprite-example-ios";
 			sourceTree = "<group>";
@@ -83,6 +80,8 @@
 			dependencies = (
 			);
 			name = "sprite-example-ios";
+			packageProductDependencies = (
+			);
 			productName = "sprite-example-ios";
 			productReference = 3614B38D2600D6570033C055 /* sprite-example-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +109,8 @@
 				Base,
 			);
 			mainGroup = 3614B3842600D6570033C055;
+			packageReferences = (
+			);
 			productRefGroup = 3614B38E2600D6570033C055 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,9 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3614B3AE2600DA430033C055 /* ImageSequence_videos_puppets_with_alpha_hevc.mov in Resources */,
+				3614B3B12600DA520033C055 /* Media.xcassets in Resources */,
 				3614B39D2600D6580033C055 /* LaunchScreen.storyboard in Resources */,
-				3614B39A2600D6580033C055 /* Assets.xcassets in Resources */,
-				3614B3982600D6570033C055 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,21 +140,12 @@
 			files = (
 				3614B3952600D6570033C055 /* ViewController.swift in Sources */,
 				3614B3912600D6570033C055 /* AppDelegate.swift in Sources */,
-				3614B3932600D6570033C055 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3614B3962600D6570033C055 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3614B3972600D6570033C055 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3614B39B2600D6580033C055 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,8 +278,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MPTU3DH5MH;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "sprite-example-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,8 +287,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.sprite-example-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,8 +298,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MPTU3DH5MH;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "sprite-example-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -314,8 +307,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.sprite-example-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
